@@ -6,6 +6,17 @@ body{
 	margin-left: 20px;
 }
 
+#logo, #tagline{
+	font-family: Courier, monospace;
+	display:inline-block;
+	margin:20px;
+	vertical-align: middle;
+}
+
+#tagline{
+	margin:0px;
+}
+
 h1, h2, h3{
 	color:#e23636;
 }
@@ -20,6 +31,7 @@ th{
 	background-color: gray;
 }
 
+
 a:link{
 	color:blue;
 }
@@ -30,4 +42,9 @@ a:hover{
 
 a:visited{
 	color:lightblue;
+}
+
+nav{
+	text-align: center;
+	margin:40px;
 }
