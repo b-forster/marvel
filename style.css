@@ -9,26 +9,40 @@ body{
 #logo, #tagline{
 	font-family: Courier, monospace;
 	display:inline-block;
-	margin:20px;
 	vertical-align: middle;
+}
+
+.header{
+	margin:30px;
 }
 
 #tagline{
 	margin:0px;
 }
 
+#logo{
+	min-width:400px;
+	max-width: 100%;
+}
+
 h1, h2, h3{
 	color:#e23636;
 }
 
-td, tr{
-	padding:5px;
+td, th, tr{
+	padding:10px;
 	border:2px solid gray;
 }
 
 th{
 
 	background-color: gray;
+}
+
+.now_playing{
+	font-weight:bold;
+	font-style:italic;
+	color:#FD504F;
 }
 
 
@@ -47,4 +61,10 @@ a:visited{
 nav{
 	text-align: center;
 	margin:40px;
+}
+
+@media (max-width: 600px) {
+  #tagline{
+    display: none;
+  }
 }
